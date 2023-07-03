@@ -1,0 +1,48 @@
+:root{
+  /* Colors */
+  --Darken: #1e272e;
+  --White: hsl(0, 0%, 99%);
+  --Black: hsl(0, 3%, 7%);
+  --DarkBlue : hsl(217, 28%, 15%); /*(intro and email sign up background)*/
+
+  /* Sizes */
+  --inline-pad: 5vw;
+
+  /* Fonts */
+  --fuentePrincipal: 'Open Sans', sans-serif;
+  --headings: 'Martel', serif;
+
+  /* Transitions */
+  --sweet: 300ms;
+  --transition: ease-in-out;
+}
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body{
+  font-size: 16px;
+  font-family: var(--fuentePrincipal);
+  min-height: 100vh;
+}
+img, picture, svg, video{
+  display: block;
+  max-width: 100%;
+}
+input, textarea, button, select{
+  font: inherit;
+}
+/* Utilidades */
+.contenedor{
+  max-width: 120rem;
+  margin: 0 auto;
+  width: 90%;
+}

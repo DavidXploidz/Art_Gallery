@@ -1,0 +1,19 @@
+.header{
+    padding-inline: var(--inline-pad);
+    background-color: var(--Darken);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo{
+    display: flex; 
+    align-items: center;
+    column-gap: 1rem;
+}
+.header__p{
+    color: var(--White);
+    text-transform: uppercase;
+    font-family: var(--headings);
+    letter-spacing: 2px;
+}
